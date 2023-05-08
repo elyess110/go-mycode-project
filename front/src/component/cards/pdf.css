@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.se {
+  background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700361942.jpg');
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', 'sans-serif';
+}
+.onchange{
+  margin-top: 550px;
+}
+.onch{
+  margin-top: -520px;
+}
+.movie-hahah {
+  margin: 10px 10px;
+  margin-top: 30px;
+}
+
+.movie-hahah select {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 15px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 700px;
+}
+
+.hahah {
+  perspective: 1000px;
+  margin-bottom: 30px;
+  margin-left: 600px;
+  margin-top: -680px;
+}
+
+.seat {
+  background-color: red;
+  color: #fff;
+  height: 40px;
+  width: 50px;
+  margin: 3px;
+  border: 1px solid #050505;
+}
+
+.selected {
+  background-color: #000000;
+  color: #fff;
+  height: 40px;
+  width: 50px;
+  margin: 3px;
+  border: 1px solid #050505;
+  border-radius: 10px;
+}
+.reserve {
+  background-color: #797979;
+  color: #fff;
+  height: 40px;
+  width: 50px;
+  margin: 3px;
+  border: 1px solid #050505;
+}
+.ma {
+  background-color: #ff0000;
+  color: #fff;
+  height: 40px;
+  width: 50px;
+  margin: 3px;
+  border: px solid #050505;
+}
+
+
+.seat:nth-of-type(2) {
+  margin-right: 50px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 50px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+ background-color: #050505;
+}
+
+
+.selected:nth-of-type(2) {
+  margin-right: 50px;
+}
+
+.selected:nth-last-of-type(2) {
+  margin-left: 50px;
+}
+
+.selected:not(.occupied):hover {
+  cursor: pointer;
+ background-color: #050505;
+}
+.lalal .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.lalal {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: #ffffff;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 600px;
+  
+}
+
+.lalal li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: -1350px;
+}
+
+.lalal li small {
+  margin-left: 10px;
+}
+
+.moo {
+  display: flex;
+}
+
+.screen {
+  background-color: #ffffff;
+  height: 170px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-60deg);
+  box-shadow: 0 5px 12px 5px rgba(255, 255, 255, 0.75);
+}
+
+
+.butt1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    margin-right: -600px;
+    margin-top: -130px;
+}
+.butt1:hover{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.imgmo{
+  width: 350px;
+  height: 500px;
+  margin-right: 650px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: solid #ffffff 2px;
+
+}
